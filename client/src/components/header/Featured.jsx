@@ -78,7 +78,7 @@ const Featured = () => {
         >
           <Box>
             <Link
-              href="/hotels"
+              href="/"
               display="flex"
               alignItems="center"
               gap="5px"
@@ -91,7 +91,7 @@ const Featured = () => {
 
           <Box>
             <Link
-              href="/hotels"
+              href="/"
               display="flex"
               alignItems="center"
               gap="5px"
@@ -104,7 +104,7 @@ const Featured = () => {
 
           <Box>
             <Link
-              href="/hotels"
+              href="/"
               display="flex"
               alignItems="center"
               gap="5px"
@@ -117,7 +117,7 @@ const Featured = () => {
 
           <Box>
             <Link
-              href="/hotels"
+              href="/"
               display="flex"
               alignItems="center"
               gap="5px"

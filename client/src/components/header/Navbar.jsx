@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Button, Box } from "@mui/material";
+import { Typography, Button, Box, Link } from "@mui/material";
 
 const Navbar = () => {
   return (
@@ -14,12 +14,19 @@ const Navbar = () => {
         justifyContent="space-between"
         sx={{ width: "100%", maxWidth: "1024px", color: "white" }}
       >
-        <Typography
-          variant="span"
-          sx={{ fontFamily: "Poppins, sans-serif", fontWeight: "500", fontSize: "22px" }}
-        >
-          Bookingclone
-        </Typography>
+        <Link href="/" sx={{ color: "white", textDecoration: "none" }}>
+          <Typography
+            variant="span"
+            sx={{
+              fontFamily: "Poppins, sans-serif",
+              fontWeight: "500",
+              fontSize: "22px",
+            }}
+          >
+            Bookingclone
+          </Typography>
+        </Link>
+
         <Box display="flex" alignItems="center" gap="10px">
           <Button
             sx={{
@@ -28,9 +35,9 @@ const Navbar = () => {
               fontSize: "13px",
               textTransform: "none",
               border: "none",
-              "&:hover":{
+              "&:hover": {
                 backgroundColor: "rgb(214, 242, 255)",
-              }
+              },
             }}
           >
             S'inscire
@@ -42,9 +49,9 @@ const Navbar = () => {
               fontSize: "13px",
               textTransform: "none",
               border: "none",
-              "&:hover":{
+              "&:hover": {
                 backgroundColor: "rgb(214, 242, 255)",
-              }
+              },
             }}
           >
             Se connecter
